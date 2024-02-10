@@ -6,7 +6,7 @@ Example from https://www.apollographql.com/docs/apollo-server/getting-started/
 
 ```bash
 npm run start
-npm run compile && node ./dist/index.js
+npm run compile && node --experimental-modules --es-module-specifier-resolution=node ./dist/index.js
 ```
 
 Then, open your browser to `http://localhost:4000/` to see the result.
