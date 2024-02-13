@@ -7,7 +7,7 @@
     "postinstall": "npm run compile",
     "compile": "tsc",
     "tinit": "tsc --init",
-    "start": "npm run compile && node --experimental-modules --es-module-specifier-resolution=node ./dist/index.js",
+    "start": "npm run compile && node --experimental-modules --es-module-specifier-resolution=node ./dist/src/index.js",
     "test": "jest --config jest.config.cjs"
   },
   "keywords": [],
