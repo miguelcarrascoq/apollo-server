@@ -8,7 +8,7 @@ To run locally
 
 ```bash
 npm run start
-npm run compile && node --experimental-modules --es-module-specifier-resolution=node ./dist/index.js
+npm run compile && node --experimental-modules --es-module-specifier-resolution=node ./dist/src/index.js
 ```
 
 For testing, you can use the following command:
